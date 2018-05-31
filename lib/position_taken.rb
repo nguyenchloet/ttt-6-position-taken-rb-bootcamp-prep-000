@@ -3,10 +3,9 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 
 def position_taken?(board, index)
-if board == [nil, " ", " ", " ", " ", " ", " ", " ", " "]
+if board[position] == " " || board[position] == "" || board[position] == nil
   return false
 elsif index == "X" || index == "O"
   return true
-else return false
 end
 end
