@@ -7,5 +7,6 @@ if board == [nil, " ", " ", " ", " ", " ", " ", " ", " "]
   return false
 elsif index == "X" || index == "O"
   return true
+else return false
 end
 end
